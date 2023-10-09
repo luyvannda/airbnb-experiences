@@ -1,12 +1,12 @@
 
 import './App.scss';
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Nav />
+        <Navbar />
       </header>
     </div>
   );
