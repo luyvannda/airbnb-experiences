@@ -23,6 +23,7 @@ body {
   background-color: $main-background-color;
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 
@@ -33,12 +34,26 @@ body {
   .logo {
     width: 11rem;
     padding: 2rem;
+    margin-left: 0.5rem;
   }
 }
 
 .hero {
+  width: 100vh;
 
   img {
-    margin: 3rem 11rem;
+    margin: 3rem 4.8125rem 2rem 4.8125rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-left: 2.25rem;
+  }
+
+  p {
+    font-weight: 300;
+    margin-left: 2.25rem;
+    width: 33ch;
   }
 }
