@@ -44,6 +44,7 @@ body {
   margin-bottom: 0.5rem;
 }
 .hero .hero-text {
+  color: #222222;
   font-weight: 300;
   margin-left: 2.25rem;
   width: 33ch;
@@ -52,4 +53,16 @@ body {
 
 .card {
   margin: 3rem 2.25rem 1rem 2.25rem;
+}
+.card .first-card {
+  position: relative;
+}
+.card .first-card .card1-status {
+  font-size: 0.64rem;
+  padding: 0.25rem;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  border-radius: 2px;
 }/*# sourceMappingURL=App.css.map */

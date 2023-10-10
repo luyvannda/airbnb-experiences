@@ -2,6 +2,7 @@
 
 $main-background-color: #FFFFFF;
 $navbar-bottom-border: gray;
+$main-text-color-black: #222222;
 
 * {
   padding: 0;
@@ -53,6 +54,7 @@ body {
   }
 
   .hero-text {
+    color: $main-text-color-black;
     font-weight: 300;
     margin-left: 2.25rem;
     width: 33ch;
@@ -64,6 +66,17 @@ body {
   margin: 3rem 2.25rem 1rem 2.25rem;
 
   .first-card {
+    position: relative;
+
+    .card1-status {
+      font-size: 0.64rem;
+      padding: 0.25rem;
+      background-color: $main-background-color;
+      position: absolute;
+      left: 0.5rem;
+      top: 0.5rem;
+      border-radius: 2px;
+    }
 
     img {}
   }
