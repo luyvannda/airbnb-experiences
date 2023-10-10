@@ -1,5 +1,6 @@
 
 import './App.scss';
+import Card from './components/Card';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         <Navbar />
         <Hero />
+        <Card />
       </header>
     </div>
   );

@@ -48,4 +48,8 @@ body {
   margin-left: 2.25rem;
   width: 33ch;
   line-height: 110%;
+}
+
+.card {
+  margin: 3rem 2.25rem 1rem 2.25rem;
 }/*# sourceMappingURL=App.css.map */
