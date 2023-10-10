@@ -7,7 +7,9 @@ export default function Card() {
       <div className="first-card">
         <img src={photo1} alt="A woman swimming instructor"></img>
         <p>
-          <img src={star} alt="A small red star"></img></p>
+          <img src={star} alt="A small red star"></img>
+          5.0 <span>(6)  USA</span>
+        </p>
       </div>
     </section>
   )
