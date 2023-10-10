@@ -1,5 +1,6 @@
 
 import './App.scss';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar />
+        <Hero />
       </header>
     </div>
   );

@@ -21,14 +21,24 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: $main-background-color;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 
 .navbar {
-  height: 5.5rem;
+  height: 6rem;
   border-bottom: 4px solid rgba($navbar-bottom-border, 0.1);
 
   .logo {
+    width: 11rem;
     padding: 2rem;
+  }
+}
+
+.hero {
+
+  img {
+    margin: 3rem 11rem;
   }
 }
