@@ -11,7 +11,8 @@ export default function Card() {
         <p className="card-rating">
           <img className="star" src={star} alt="A small red star"></img> 5.0 <span>(6) <img className="ellipse" src={ellipse} alt="an ellipse"></img> USA</span>
         </p>
-        <p className="card-description"></p>
+        <p className="card-description">Life lessons with Katie Zaferes <span>From $136</span> / person
+        </p>
       </div>
     </section>
   )

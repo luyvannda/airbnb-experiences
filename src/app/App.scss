@@ -3,6 +3,7 @@
 $main-background-color: #FFFFFF;
 $navbar-bottom-border: gray;
 $main-text-color-black: #222222;
+$main-span-color: #918E9B;
 
 * {
   padding: 0;
@@ -78,6 +79,39 @@ body {
       border-radius: 2px;
     }
 
-    img {}
+    .card-photo {
+      width: 10.9375rem;
+    }
+
+    .card-rating {
+      font-size: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-bottom: 0.3rem;
+
+      .star {
+        width: 0.875rem;
+      }
+
+      span {
+        color: $main-span-color;
+
+        .ellipse {
+          position: relative;
+          bottom: 0.2rem;
+        }
+      }
+    }
+
+    .card-description {
+      font-size: 0.75rem;
+      width: 24ch;
+      line-height: 180%;
+
+      span {
+        font-weight: 600;
+      }
+    }
   }
 }

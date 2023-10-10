@@ -65,4 +65,32 @@ body {
   left: 0.5rem;
   top: 0.5rem;
   border-radius: 2px;
+}
+.card .first-card .card-photo {
+  width: 10.9375rem;
+}
+.card .first-card .card-rating {
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.3rem;
+}
+.card .first-card .card-rating .star {
+  width: 0.875rem;
+}
+.card .first-card .card-rating span {
+  color: #918E9B;
+}
+.card .first-card .card-rating span .ellipse {
+  position: relative;
+  bottom: 0.2rem;
+}
+.card .first-card .card-description {
+  font-size: 0.75rem;
+  width: 24ch;
+  line-height: 180%;
+}
+.card .first-card .card-description span {
+  font-weight: 600;
 }/*# sourceMappingURL=App.css.map */
