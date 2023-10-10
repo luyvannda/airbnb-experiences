@@ -41,18 +41,18 @@ body {
 .hero {
   width: 100vh;
 
-  img {
+  .hero-photo {
     margin: 3rem 4.8125rem 2rem 4.8125rem;
   }
 
-  h1 {
+  .hero-header {
     font-size: 2.25rem;
     font-weight: 600;
     margin-left: 2.25rem;
     margin-bottom: 0.5rem;
   }
 
-  p {
+  .hero-text {
     font-weight: 300;
     margin-left: 2.25rem;
     width: 33ch;
