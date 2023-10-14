@@ -3,7 +3,6 @@ import './App.scss';
 import Card from './components/Card';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import katie from "./components/images/katie-swimmer.png"
 
 
 function App() {
@@ -16,12 +15,12 @@ function App() {
       <main className='App-main'>
         <Card
           status="SOLD OUT"
-          img={katie}
+          img="./images/katie-swimmer.png"
           alt="A woman swimming instructor"
           rating={5.0}
           reviewCount="(6)"
           country="USA"
-          description="Life Lessons with Katie Zaferes"
+          title="Life Lessons with Katie Zaferes"
           price={136}
 
         />
