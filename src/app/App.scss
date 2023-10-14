@@ -64,13 +64,16 @@ body {
   }
 }
 
-.card {
-  margin: 3rem 2.25rem 1rem 2.25rem;
+.card-container {
+  margin: 3rem -1.25rem 1rem 2.25rem;
 
-  .first-card {
+  .card {
     position: relative;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
 
-    .card1-status {
+    .card-status {
       font-size: 0.64rem;
       padding: 0.25rem;
       background-color: $main-background-color;
@@ -115,4 +118,10 @@ body {
       }
     }
   }
+}
+
+.card-list {
+  width: 100vw;
+  display: flex;
+  overflow-x: scroll;
 }

@@ -5,22 +5,10 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import dataBase from './components/data';
 
-
-/*
-Challenge:
-
-- import the array of data from data.js
-- map over the array to create <Card /> components
-- display the array of card components under the navbar
-  (in place of the current <Card /> component)
-
-Note: We haven't styled the group of components yet, so they'll
-still be block elements, stacked vertically. We'll add styling later.
-*/
-
 function App() {
-  const dataElements = dataBase.map((data) => {
+  const cards = dataBase.map((data) => {
     return <Card
+      key={data.id}
       status={data.openSpots}
       img={`./images/${data.coverImg}`}
       alt={data.alt}
@@ -38,25 +26,11 @@ function App() {
         <Navbar />
         <Hero />
       </header>
-      <main className='App-main'>
-        {dataElements}
-      </main>
+      <section className='card-list'>
+        {cards}
+      </section>
     </div>
   );
 }
 
 export default App;
-
-
-/*
-<Card
-  status="SOLD OUT"
-  img="./images/katie-swimmer.png"
-  alt="A woman swimming instructor"
-  rating={5.0}
-  reviewCount="(6)"
-  country="USA"
-  title="Life Lessons with Katie Zaferes"
-  price={136}
-/>
-*/

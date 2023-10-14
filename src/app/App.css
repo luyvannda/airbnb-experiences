@@ -52,13 +52,16 @@ body {
   line-height: 110%;
 }
 
-.card {
-  margin: 3rem 2.25rem 1rem 2.25rem;
+.card-container {
+  margin: 3rem -1.25rem 1rem 2.25rem;
 }
-.card .first-card {
+.card-container .card {
   position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
 }
-.card .first-card .card1-status {
+.card-container .card .card-status {
   font-size: 0.64rem;
   padding: 0.25rem;
   background-color: #FFFFFF;
@@ -67,31 +70,37 @@ body {
   top: 0.5rem;
   border-radius: 2px;
 }
-.card .first-card .card-photo {
+.card-container .card .card-photo {
   width: 10.9375rem;
 }
-.card .first-card .card-rating {
+.card-container .card .card-rating {
   font-size: 0.75rem;
   display: flex;
   align-items: center;
   gap: 0.25rem;
   margin-bottom: 0.3rem;
 }
-.card .first-card .card-rating .star {
+.card-container .card .card-rating .star {
   width: 0.875rem;
 }
-.card .first-card .card-rating span {
+.card-container .card .card-rating span {
   color: #918E9B;
 }
-.card .first-card .card-rating span .ellipse {
+.card-container .card .card-rating span .ellipse {
   position: relative;
   bottom: 0.2rem;
 }
-.card .first-card .card-description {
+.card-container .card .card-description {
   font-size: 0.75rem;
   width: 24ch;
   line-height: 180%;
 }
-.card .first-card .card-description span {
+.card-container .card .card-description span {
   font-weight: 600;
+}
+
+.card-list {
+  width: 100vw;
+  display: flex;
+  overflow-x: scroll;
 }/*# sourceMappingURL=App.css.map */
