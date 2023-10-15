@@ -123,10 +123,14 @@ body {
         }
       }
 
-      .card-description {
+      .card-title {
         font-size: 0.75rem;
         width: 24ch;
         line-height: 180%;
+      }
+
+      .card-price {
+        font-size: 0.75rem;
 
         span {
           font-weight: 600;

@@ -101,11 +101,14 @@ body {
   position: relative;
   bottom: 0.2rem;
 }
-.card-list .card-container .card .card-description {
+.card-list .card-container .card .card-title {
   font-size: 0.75rem;
   width: 24ch;
   line-height: 180%;
 }
-.card-list .card-container .card .card-description span {
+.card-list .card-container .card .card-price {
+  font-size: 0.75rem;
+}
+.card-list .card-container .card .card-price span {
   font-weight: 600;
 }/*# sourceMappingURL=App.css.map */

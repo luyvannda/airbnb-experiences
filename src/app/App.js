@@ -9,15 +9,7 @@ function App() {
   const cards = dataBase.map((data) => {
     return <Card
       key={data.id}
-      openSpots={data.openSpots}
-      location={data.location}
-      img={`./images/${data.coverImg}`}
-      alt={data.alt}
-      rating={data.stats.rating}
-      reviewCount={data.stats.reviewCount}
-      country={data.country}
-      title={data.title}
-      price={data.price}
+      item={data}
     />
   })
 
