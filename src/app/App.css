@@ -21,30 +21,34 @@ body {
   overflow-x: hidden;
 }
 
-.navbar {
+.app {
+  width: 34rem;
+  overflow-x: hidden;
+}
+
+.app-header .navbar {
   height: 6rem;
   border-bottom: 4px solid rgba(128, 128, 128, 0.1);
 }
-.navbar .logo {
+.app-header .navbar .logo {
   width: 11rem;
   padding: 2rem;
   margin-left: 0.5rem;
 }
-
-.hero {
+.app-header .hero {
   width: 100vh;
 }
-.hero .hero-photo {
+.app-header .hero .hero-photo {
   margin: 3rem 4.8125rem 2rem 4.8125rem;
   width: 24.74rem;
 }
-.hero .hero-header {
+.app-header .hero .hero-header {
   font-size: 2.25rem;
   font-weight: 600;
   margin-left: 2.25rem;
   margin-bottom: 0.5rem;
 }
-.hero .hero-text {
+.app-header .hero .hero-text {
   color: #222222;
   font-weight: 300;
   margin-left: 2.25rem;
@@ -52,16 +56,20 @@ body {
   line-height: 110%;
 }
 
-.card-container {
+.card-list {
+  display: flex;
+  overflow-x: scroll;
+}
+.card-list .card-container {
   margin: 3rem -1.25rem 1rem 2.25rem;
 }
-.card-container .card {
-  position: relative;
+.card-list .card-container .card {
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
+  position: relative;
 }
-.card-container .card .card-status {
+.card-list .card-container .card .card-status {
   font-size: 0.64rem;
   padding: 0.25rem;
   background-color: #FFFFFF;
@@ -70,37 +78,31 @@ body {
   top: 0.5rem;
   border-radius: 2px;
 }
-.card-container .card .card-photo {
+.card-list .card-container .card .card-photo {
   width: 10.9375rem;
 }
-.card-container .card .card-rating {
+.card-list .card-container .card .card-rating {
   font-size: 0.75rem;
   display: flex;
   align-items: center;
   gap: 0.25rem;
   margin-bottom: 0.3rem;
 }
-.card-container .card .card-rating .star {
+.card-list .card-container .card .card-rating .star {
   width: 0.875rem;
 }
-.card-container .card .card-rating span {
+.card-list .card-container .card .card-rating span {
   color: #918E9B;
 }
-.card-container .card .card-rating span .ellipse {
+.card-list .card-container .card .card-rating span .ellipse {
   position: relative;
   bottom: 0.2rem;
 }
-.card-container .card .card-description {
+.card-list .card-container .card .card-description {
   font-size: 0.75rem;
   width: 24ch;
   line-height: 180%;
 }
-.card-container .card .card-description span {
+.card-list .card-container .card .card-description span {
   font-weight: 600;
-}
-
-.card-list {
-  width: 100vw;
-  display: flex;
-  overflow-x: scroll;
 }/*# sourceMappingURL=App.css.map */
